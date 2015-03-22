@@ -64,7 +64,6 @@ values:
 - "timeGravityAcc_Y"
 - "timeGravityAcc_Z"
 - "timeGravityAccMag"
-}
 
 ## mean (float): mean of the kind of activity
 
