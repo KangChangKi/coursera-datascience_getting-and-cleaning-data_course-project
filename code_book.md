@@ -2,13 +2,14 @@
 
 reference: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## activity: activity ID
-number    
+## activity (integer): activity ID
+
+values:    
 1:6
 
-## activityName: activity name
-character
+## activityName (characters): activity name
 
+values:    
 - "WALKING"
 - "WALKING_UPSTAIRS"
 - "WALKING_DOWNSTAIRS"
@@ -16,13 +17,12 @@ character
 - "STANDING"
 - "LAYING"
 
+## subject (integer): subject ID
 
-## subject: subject ID
-number
+values:    
 1:30
 
-## kind: kind of activity
-character
+## kind (character): kind of activity
 
 format:    
 - 'frequency'/'time': time or frequency domain variables
@@ -30,6 +30,7 @@ format:
 - 'Gyro': gyroscope
 - 'Mag': magnitude
 
+values:    
 - "frequencyBodyAcc_X"
 - "frequencyBodyAcc_Y"
 - "frequencyBodyAcc_Z"
@@ -65,10 +66,12 @@ format:
 - "timeGravityAccMag"
 }
 
-## mean: mean of the kind of activity
-number(float)    
+## mean (float): mean of the kind of activity
+
+values:    
 -1:1
 
-## std: standard deviation of the kind of activity
-number(float)    
+## std (float): standard deviation of the kind of activity
+
+values:    
 -1:1
