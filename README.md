@@ -12,11 +12,11 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 and extracts the data files into 'data' directory in current working directory. Each data file is in text format.
 
-It merges test and train data. Also it joins 3 data files: feature, activity, and subject files. As the result there is only one data.
+It merges 2 sets of data, which are test and train data. Also it joins 3 different data files: feature, activity, and subject files. As the result, there is only one data.
 
-It calculates the average of the data for each subject and activity.
+It calculates the average of the feature for each subject and activity.
 
-Also it renames column names into more cleaner ones.
+Also it renames a little bit cryptic column names into more cleaner ones.
 
 Because there are values instead of variables on headers of the data, it reconstruct some columns into mean and std columns.
 
